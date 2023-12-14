@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-virtualization-container
-        image: <DOCKER_HUB_USERNAME>/hello-virtualization:latest
+        image: https://hub.docker.com/u/sneha199509/hello-virtualization:latest
         ports:
         - containerPort: 5000

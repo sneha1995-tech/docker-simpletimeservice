@@ -21,4 +21,4 @@ Steps :
    kubectl apply -f Service.yaml
 
 8. to run the container and see the output use below :
-   kubectl run my-shell --rm -i --tty --image curlimages/curl -- sh
+   kubectl run SimpleTimeService --rm -i --tty --image curlimages/curl -- sh
